@@ -1,0 +1,83 @@
+{
+  "checkpoint": "artifacts/command_model_resplit/best_command_model.pt",
+  "manifest": "data/custom_dataset/metadata.csv",
+  "split": "test",
+  "samples": 100,
+  "loss": 0.9012301588058471,
+  "accuracy": 0.65,
+  "classification_report": {
+    "call_friend": {
+      "precision": 0.5833333333333334,
+      "recall": 0.7,
+      "f1-score": 0.6363636363636364,
+      "support": 10.0
+    },
+    "door_close": {
+      "precision": 0.7777777777777778,
+      "recall": 0.7,
+      "f1-score": 0.7368421052631579,
+      "support": 10.0
+    },
+    "door_open": {
+      "precision": 0.5,
+      "recall": 0.8,
+      "f1-score": 0.6153846153846154,
+      "support": 10.0
+    },
+    "light_off": {
+      "precision": 0.4166666666666667,
+      "recall": 0.5,
+      "f1-score": 0.45454545454545453,
+      "support": 10.0
+    },
+    "light_on": {
+      "precision": 0.5714285714285714,
+      "recall": 0.4,
+      "f1-score": 0.47058823529411764,
+      "support": 10.0
+    },
+    "music_play": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 10.0
+    },
+    "music_stop": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 10.0
+    },
+    "volume_down": {
+      "precision": 0.5833333333333334,
+      "recall": 0.7,
+      "f1-score": 0.6363636363636364,
+      "support": 10.0
+    },
+    "volume_up": {
+      "precision": 0.7142857142857143,
+      "recall": 0.5,
+      "f1-score": 0.5882352941176471,
+      "support": 10.0
+    },
+    "what_time": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6,
+      "f1-score": 0.631578947368421,
+      "support": 10.0
+    },
+    "accuracy": 0.65,
+    "macro avg": {
+      "precision": 0.6813492063492064,
+      "recall": 0.65,
+      "f1-score": 0.6547679702478464,
+      "support": 100.0
+    },
+    "weighted avg": {
+      "precision": 0.6813492063492064,
+      "recall": 0.65,
+      "f1-score": 0.6547679702478465,
+      "support": 100.0
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "checkpoint": "artifacts/command_model_speaker_disjoint/best_command_model.pt",
+  "manifest": "data/custom_dataset/metadata.csv",
+  "split": "all",
+  "speaker_id": "speaker_10",
+  "samples": 30,
+  "loss": 1.650202759106954,
+  "accuracy": 0.3333333333333333,
+  "classification_report": {
+    "call_friend": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "door_close": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "door_open": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "light_off": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "light_on": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "music_play": {
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1-score": 0.6,
+      "support": 3.0
+    },
+    "music_stop": {
+      "precision": 0.16666666666666666,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.2222222222222222,
+      "support": 3.0
+    },
+    "volume_down": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "volume_up": {
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1-score": 0.75,
+      "support": 3.0
+    },
+    "what_time": {
+      "precision": 0.25,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.2857142857142857,
+      "support": 3.0
+    },
+    "accuracy": 0.3333333333333333,
+    "macro avg": {
+      "precision": 0.34452380952380957,
+      "recall": 0.33333333333333337,
+      "f1-score": 0.28579365079365077,
+      "support": 30.0
+    },
+    "weighted avg": {
+      "precision": 0.3445238095238095,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.2857936507936508,
+      "support": 30.0
+    }
+  }
+}

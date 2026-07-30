@@ -1,0 +1,11 @@
+true/predicted,call_friend,door_close,door_open,light_off,light_on,music_play,music_stop,volume_down,volume_up,what_time
+call_friend,7,1,1,0,1,0,0,0,0,0
+door_close,0,7,2,0,0,0,0,0,0,1
+door_open,1,1,8,0,0,0,0,0,0,0
+light_off,2,0,0,5,2,0,0,0,0,1
+light_on,1,0,0,5,4,0,0,0,0,0
+music_play,1,0,0,0,0,8,0,1,0,0
+music_stop,0,0,1,0,0,0,8,0,0,1
+volume_down,0,0,1,0,0,0,0,7,2,0
+volume_up,0,0,1,0,0,0,0,4,5,0
+what_time,0,0,2,2,0,0,0,0,0,6
