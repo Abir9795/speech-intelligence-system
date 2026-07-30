@@ -7,7 +7,7 @@ name = "speech-intelligence-system"
 version = "0.1.0"
 description = "An end-to-end voice command, speaker identification, and Whisper transcription demo."
 readme = "README.md"
-requires-python = ">=3.10,<3.13"
+requires-python = ">=3.11,<3.13"
 dependencies = [
   "Flask>=3.1,<4",
   "jiwer>=4,<5",

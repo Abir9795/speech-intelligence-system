@@ -55,7 +55,7 @@ The original university project report is available at [docs/project-report.pdf]
 
 ## Quick start
 
-Python 3.11 is recommended; Python 3.10–3.12 is supported.
+Python 3.11 is recommended; Python 3.11–3.12 is supported.
 
 ```bash
 git clone https://github.com/Abir9795/speech-intelligence-system.git
@@ -175,7 +175,7 @@ ruff check .
 pytest --cov=support --cov-report=term-missing
 ```
 
-GitHub Actions performs these checks on Python 3.10, 3.11, and 3.12.
+GitHub Actions performs these checks on Python 3.11 and 3.12.
 
 ## Project layout
 
